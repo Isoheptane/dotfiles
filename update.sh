@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Hyprland
 cp ~/.config/hypr/hyprland.conf ./hyprland/
 # Waybar

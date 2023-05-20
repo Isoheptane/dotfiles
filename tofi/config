@@ -88,7 +88,7 @@
 	# Default result text theme
 	# default-result-color = #FFFFFF
 	default-result-background = #00000000
-	default-result-background-padding = 2, 8
+	default-result-background-padding = 4, 8
 	default-result-background-corner-radius = 0
 
 	# Alternate (even-numbered) result text theme
@@ -104,7 +104,7 @@
 	# Selection text
 	selection-color = #000000
 	selection-background = #CCEEFF
-	selection-background-padding = 2, 8
+	selection-background-padding = 4, 8
 	selection-background-corner-radius = 8
 
 	# Matching portion of selection text
@@ -155,7 +155,7 @@
 	num-results = 0
 
 	# Spacing between results in pixels. Can be negative.
-	result-spacing = 0
+	result-spacing = 8
 
 	# List results horizontally.
 	horizontal = false
