@@ -1,18 +1,18 @@
 sort=-time
 layer=overlay
 background-color=#2e34407f
-width=420
-height=120
+width=450
+height=150
 border-size=3
 border-color=#99c0d0
 border-radius=12
 icons=0
 max-icon-size=64
 default-timeout=5000
-ignore-timeout=1
+ignore-timeout=0
 font="Noto Sans CJK SC" 14
 margin=12
-padding=10,20
+padding=12,20
 
 [urgency=low]
 border-color=#cccccc
