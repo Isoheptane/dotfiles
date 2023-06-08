@@ -34,7 +34,8 @@
     "memory": {
         "interval": 1,
         "format": " {used}G",
-        "tooltip": false
+        "tooltip": true,
+        "tooltip-format": "RAM: {used}G / {total}G\nSwap: {swapUsed}G / {swapTotal}G"
     },
     "network": {
         "interval": 1,

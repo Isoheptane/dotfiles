@@ -2,7 +2,7 @@ window:
   padding:
     x: 24
     y: 16
-  opacity: 0.6
+  opacity: 0.8
 
 cursor:
   style:
@@ -172,10 +172,8 @@ font:
 # Default:
 #   - (Linux/BSD/macOS) `$SHELL` or the user's login shell, if `$SHELL` is unset
 #   - (Windows) powershell
-#shell:
-#  program: /bin/bash
-#  args:
-#    - --login
+shell:
+  program: /usr/bin/fish
 
 # Startup directory
 #
