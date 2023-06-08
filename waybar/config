@@ -1,7 +1,7 @@
 {
     "layer": "top",
     "position": "top", 
-    "height": 40, 
+    "height": 36, 
     "spacing": 6,
     "modules-left": ["wlr/workspaces", "hyprland/window"],
     "modules-center": [],
@@ -28,23 +28,23 @@
     },
     "cpu": {
         "interval": 1,
-        "format": " {usage}%",
+        "format": "\uf2db {usage}%",
         "tooltip": false
     },
     "memory": {
         "interval": 1,
-        "format": " {used}G",
+        "format": "\uf538 {used}G",
         "tooltip": true,
         "tooltip-format": "RAM: {used}G / {total}G\nSwap: {swapUsed}G / {swapTotal}G"
     },
     "network": {
         "interval": 1,
-        "format-wifi": " {essid} ({signalStrength}%)",
-        "format-ethernet": "\uf796 {bandwidthUpBits} {bandwidthDownBits}",
-        "format-linked": " {ifname} (No IP)",
-        "format-disconnected": "⚠ Disconnected",
-        "tooltip-format": " {ifname} {ipaddr}/{cidr} via {gwaddr}",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        "format-wifi": "\uf1eb {essid} ({signalStrength}%)",
+        "format-ethernet": "\uf796 {ipaddr}/{cidr}",
+        "format-linked": "\uf059 No IP ({ifname})",
+        "format-disconnected": "\uf071 Disconnected",
+        "tooltip-format": "{ifname} {ipaddr}/{cidr} via {gwaddr}",
+        "format-alt": "\uf6ff {ifname}: {ipaddr}/{cidr}"
     },
     "pulseaudio": {
         "scroll-step": 5,

@@ -1,10 +1,10 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: "Fira Mono";
+    font-family: "Fira Mono", "Font Awesome 6 Free";
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
 
-    border-radius: 10px;
+    border-radius: 18px;
     text-shadow: none;
     
     transition-property: background;
@@ -28,9 +28,10 @@ window#waybar.hidden {
 }
 
 #workspaces button {
+    margin: 3px;
     border: none;
-    padding: 0 10px;
-    background-color: transparent;
+    padding: 0 8px;
+    background: transparent;
     color: #ffffff;
 }
 
