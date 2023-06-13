@@ -29,7 +29,7 @@
     "cpu": {
         "interval": 1,
         "format": "\uf2db {usage}%",
-        "tooltip": false
+        "tooltip": true
     },
     "memory": {
         "interval": 1,
