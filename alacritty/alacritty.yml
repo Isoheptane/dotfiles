@@ -46,7 +46,13 @@ colors:
 font:
   size: 16
   normal:
-    family: "MesloLGS NF"
+    family: 'Inconsolata'
+    style: 'Regular'
+  bold:
+    style: 'SemiBold'
+
+env:
+  TERM: xterm-256color
 
     # The `style` can be specified to pick a specific face.
     #style: Regular

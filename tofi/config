@@ -13,10 +13,10 @@
 	# characters not in the chosen font will fail to render.
 	#
 	# Otherwise, fonts are interpreted in Pango format.
-	font = "Fira Code"
+	font = "Cascadia Code SemiLight"
 
 	# Point size of text.
-	font-size = 18
+	font-size = 16
 
 	# Comma separated list of OpenType font feature settings to apply,
 	# if supported by the chosen font. The format is similar to the CSS
@@ -68,13 +68,13 @@
 	#     Radius of background box corners in pixels
 
 	# Prompt text theme
-	# prompt-color = #FFFFFF
+	prompt-color = #F7CA88
 	prompt-background = #00000000
 	prompt-background-padding = 0
 	prompt-background-corner-radius = 0
 
 	# Placeholder text theme
-	placeholder-color = #FFFFFFA8
+	placeholder-color = #FFFFFF7F
 	placeholder-background = #00000000
 	placeholder-background-padding = 0
 	placeholder-background-corner-radius = 0
@@ -88,7 +88,7 @@
 	# Default result text theme
 	# default-result-color = #FFFFFF
 	default-result-background = #00000000
-	default-result-background-padding = 4, 10
+	default-result-background-padding = 0, 0
 	default-result-background-corner-radius = 0
 
 	# Alternate (even-numbered) result text theme
@@ -104,8 +104,8 @@
 	# Selection text
 	selection-color = #000000
 	selection-background = #CCEEFF
-	selection-background-padding = 4, 10
-	selection-background-corner-radius = 8
+	selection-background-padding = 3, 8
+	selection-background-corner-radius = 6
 
 	# Matching portion of selection text
 	selection-match-color = #00000000
@@ -155,7 +155,7 @@
 	num-results = 0
 
 	# Spacing between results in pixels. Can be negative.
-	result-spacing = 8
+	result-spacing = 6
 
 	# List results horizontally.
 	horizontal = false
@@ -167,8 +167,8 @@
 ### Window theming
 #
 	# Width and height of the window. Can be pixels or a percentage.
-	width = 1290
-	height = 480
+	width = 40%
+	height = 40%
 
 	# Window background color
 	background-color = #1B1D1EBF
@@ -180,13 +180,13 @@
 	outline-color = #080800
 
 	# Width of the border in pixels.
-	border-width = 3
+	border-width = 2
 
 	# Border color
 	border-color = #cceeff
 
 	# Radius of window corners in pixels.
-	corner-radius = 24
+	corner-radius = 18
 
 	# Padding between borders and text. Can be pixels or a percentage.
 	padding-top = 6

@@ -40,7 +40,7 @@
     "network": {
         "interval": 1,
         "format-wifi": "\uf1eb {essid} ({signalStrength}%)",
-        "format-ethernet": "\uf796 {ipaddr}/{cidr}",
+        "format-ethernet": "\uf6ff {ipaddr}/{cidr}",
         "format-linked": "\uf059 No IP ({ifname})",
         "format-disconnected": "\uf071 Disconnected",
         "tooltip-format": "{ifname} {ipaddr}/{cidr} via {gwaddr}",
@@ -49,17 +49,11 @@
     "pulseaudio": {
         "scroll-step": 5,
         "format": "{icon} {volume}%",
-        "format-muted": "",
-        "format-bluetooth": "{icon} {volume}%",
-        "format-bluetooth-muted": " {icon}",
+        "format-muted": "\uf6a9",
+        "format-bluetooth": "{icon}\uf294 {volume}%",
+        "format-bluetooth-muted": "\ufa69 {icon}\uf294",
         "format-icons": {
-            "headphone": "",
-            "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["", "", ""]
+            "default": ["\uf026", "\uf027", "\uf028"]
         },
         "on-click-right": "pavucontrol"
     }

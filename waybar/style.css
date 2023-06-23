@@ -1,6 +1,6 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: "Fira Mono", "Font Awesome 6 Free";
+    font-family: "IntelOne Mono", "Font Awesome 6 Free";
     font-weight: 500;
     font-size: 16px;
 
@@ -110,7 +110,7 @@ window#waybar.hidden {
 }
 
 #window {
-    font-family: 'Fira Mono', 'Noto Sans CJK SC', sans-serif;
+    font-family: 'IntelOne Mono', 'Noto Sans CJK SC', sans-serif;
     font-weight: 400;
     background-color: #cbecff;
     color: #000000;
