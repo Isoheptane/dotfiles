@@ -3,12 +3,11 @@
     "position": "top", 
     "height": 36, 
     "spacing": 6,
-    "modules-left": ["wlr/workspaces", "hyprland/window"],
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
     "modules-center": [],
     "modules-right": ["tray", "network", "pulseaudio", "memory", "cpu", "clock"],
-    "wlr/workspaces": {
-        "format": "{icon}",
-        "sort-by-number": true,
+    "hyprland/workspaces": {
+        "format": "{name}",
         "on-click": "activate",
         "on-scroll-up": "hyprctl dispatch workspace e+1",
         "on-scroll-down": "hyprctl dispatch workspace e-1"

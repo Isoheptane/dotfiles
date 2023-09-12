@@ -1,12 +1,13 @@
 [Hotkey]
-# Trigger Input Method
-TriggerKeys=
 # Enumerate when press trigger key repeatedly
 EnumerateWithTriggerKeys=True
 # Enumerate Input Method Backward
 EnumerateBackwardKeys=
 # Skip first input method while enumerating
 EnumerateSkipFirst=False
+
+[Hotkey/TriggerKeys]
+0=Control+space
 
 [Hotkey/AltTriggerKeys]
 0=Shift_L
