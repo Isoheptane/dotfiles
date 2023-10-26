@@ -54,6 +54,7 @@
         "format-icons": {
             "default": ["\uf026", "\uf027", "\uf028"]
         },
-        "on-click-right": "pavucontrol"
+        "on-click-right": "pavucontrol",
+        "ignored-sinks": ["AudioRelay Virtual Sink", "Recorder Sink"]
     }
 }
