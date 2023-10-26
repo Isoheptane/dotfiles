@@ -2,7 +2,7 @@ window:
   padding:
     x: 24
     y: 16
-  opacity: 0.5
+  opacity: 0.4
 
 cursor:
   style:
@@ -10,7 +10,7 @@ cursor:
     blinking: On
 
 import:
-  - ~/.config/alacritty/theme/themes/material_theme_mod.yaml
+  - ~/.config/alacritty/theme/themes/monokai_pro.yaml
 
 font:
   size: 16
