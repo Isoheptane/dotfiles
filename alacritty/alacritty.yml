@@ -10,7 +10,7 @@ cursor:
     blinking: On
 
 import:
-  - ~/.config/alacritty/theme/themes/monokai_pro.yaml
+  - ~/.config/alacritty/theme/themes/base16_default_dark.yaml
 
 font:
   size: 16
