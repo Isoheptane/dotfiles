@@ -1,10 +1,10 @@
 sort=-time
 layer=overlay
-background-color=#2d2a2e33
+background-color=#2d2a2e66
 width=450
 height=150
 border-size=1
-border-color=#99c0d0
+border-color=#cceeff
 border-radius=12
 icons=1
 max-icon-size=64
@@ -18,8 +18,8 @@ padding=12,20
 border-color=#cccccc
 
 [urgency=normal]
-border-color=#99c0d0
+border-color=#cceeff
 
 [urgency=critical]
-border-color=#bf616a
+border-color=#ff7777
 default-timeout=0

@@ -2,7 +2,7 @@ window:
   padding:
     x: 24
     y: 16
-  opacity: 0.2
+  opacity: 0.4
 
 cursor:
   style:
