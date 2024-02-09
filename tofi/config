@@ -13,7 +13,7 @@
 	# characters not in the chosen font will fail to render.
 	#
 	# Otherwise, fonts are interpreted in Pango format.
-	font = "Cascadia Code SemiLight"
+	font = "Intel One Mono"
 
 	# Point size of text.
 	font-size = 16
@@ -104,8 +104,8 @@
 	# Selection text
 	selection-color = #000000
 	selection-background = #CCEEFF
-	selection-background-padding = 3, 8
-	selection-background-corner-radius = 6
+	selection-background-padding = 0, 8
+	selection-background-corner-radius = 8
 
 	# Matching portion of selection text
 	selection-match-color = #00000000
@@ -155,7 +155,7 @@
 	num-results = 0
 
 	# Spacing between results in pixels. Can be negative.
-	result-spacing = 6
+	result-spacing = 2
 
 	# List results horizontally.
 	horizontal = false

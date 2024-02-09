@@ -23,7 +23,7 @@ import:
 font:
   size: 16
   normal:
-    family: 'Inconsolata'
+    family: 'Noto Sans CJK HK'
     style: 'Regular'
   bold:
     style: 'SemiBold'

@@ -1,4 +1,4 @@
-import = ["/home/iso/.config/alacritty/theme/themes/base16_default_dark.toml"]
+import = ["/home/cascade/.config/alacritty/theme/themes/base16_default_dark.toml"]
 
 [cursor.style]
 blinking = "On"
