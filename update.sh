@@ -9,8 +9,7 @@ cp -r ~/.config/mako/					./mako/
 rm -r ./tofi/
 cp -r ~/.config/tofi/					./tofi/
 rm -r ./alacritty/
-mkdir ./alacritty/
-cp ~/.config/alacritty/alacritty.yml	./alacritty/
+cp -r ~/.config/alacritty/				./alacritty/
 rm -r ./fish/  
 cp -r ~/.config/fish/					./fish/
 rm -r ./fcitx5/
