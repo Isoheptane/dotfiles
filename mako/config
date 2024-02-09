@@ -1,10 +1,18 @@
 sort=-time
 layer=overlay
+<<<<<<< HEAD
 background-color=#2d2a2e66
 width=450
 height=150
 border-size=1
 border-color=#cceeff
+=======
+background-color=#2d2a2e33
+width=450
+height=150
+border-size=1
+border-color=#99c0d0
+>>>>>>> 97be47b (nah)
 border-radius=12
 icons=1
 max-icon-size=64
@@ -21,5 +29,9 @@ border-color=#cccccc
 border-color=#cceeff
 
 [urgency=critical]
+<<<<<<< HEAD
 border-color=#ff7777
+=======
+border-color=#bf616a
+>>>>>>> 97be47b (nah)
 default-timeout=0

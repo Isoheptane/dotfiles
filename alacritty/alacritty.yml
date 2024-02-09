@@ -2,7 +2,11 @@ window:
   padding:
     x: 24
     y: 16
+<<<<<<< HEAD
   opacity: 0.4
+=======
+  opacity: 0.2
+>>>>>>> 97be47b (nah)
 
 cursor:
   style:

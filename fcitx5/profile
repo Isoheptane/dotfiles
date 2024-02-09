@@ -18,6 +18,7 @@ Name=pinyin
 # Layout
 Layout=
 
+<<<<<<< HEAD
 [Groups/0/Items/2]
 # Name
 Name=mozc
@@ -31,6 +32,15 @@ Name=Default
 Default Layout=us
 # Default Input Method
 DefaultIM=pinyin
+=======
+[Groups/1]
+# Group Name
+Name=All
+# Layout
+Default Layout=us
+# Default Input Method
+DefaultIM=mozc
+>>>>>>> 97be47b (nah)
 
 [Groups/1/Items/0]
 # Name
@@ -44,6 +54,15 @@ Name=pinyin
 # Layout
 Layout=
 
+<<<<<<< HEAD
+=======
+[Groups/1/Items/2]
+# Name
+Name=mozc
+# Layout
+Layout=
+
+>>>>>>> 97be47b (nah)
 [GroupOrder]
 0=Default
 1=All
