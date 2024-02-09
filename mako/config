@@ -1,26 +1,10 @@
 sort=-time
 layer=overlay
-<<<<<<< HEAD
-<<<<<<< HEAD
 background-color=#2d2a2e66
 width=450
 height=150
 border-size=1
 border-color=#cceeff
-=======
-background-color=#2d2a2e33
-width=450
-height=150
-border-size=1
-border-color=#99c0d0
->>>>>>> 97be47b (nah)
-=======
-background-color=#2d2a2e66
-width=450
-height=150
-border-size=1
-border-color=#cceeff
->>>>>>> dc8baac (Migrate etc.)
 border-radius=12
 icons=1
 max-icon-size=64
@@ -37,13 +21,5 @@ border-color=#cccccc
 border-color=#cceeff
 
 [urgency=critical]
-<<<<<<< HEAD
-<<<<<<< HEAD
 border-color=#ff7777
-=======
-border-color=#bf616a
->>>>>>> 97be47b (nah)
-=======
-border-color=#ff7777
->>>>>>> dc8baac (Migrate etc.)
 default-timeout=0
