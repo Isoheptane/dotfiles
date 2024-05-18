@@ -19,33 +19,50 @@ window#waybar.hidden {
     opacity: 0.2;
 }
 
+#clock,
+#cpu,
+#memory,
+#network,
+#pulseaudio,
+#tray,
+#mode,
+#window,
 #workspaces {
-	margin-top: 6px;
-	background: rgba(16, 20, 24, 0.5);
+    margin-top: 6px;
+    padding: 0 12px;
+}
+
+#workspaces {
+    padding: 3px;
+	background: rgba(31, 31, 31, 1.0);
 	transition: none;
 
     font-size: 12px;
 }
 
+#workspaces :first-child {
+    margin-left: 0;
+}
+
 #workspaces button {
-    margin: 3px;
     border: none;
-    padding: 0 8px;
+    padding: 0 6px;
     background: transparent;
     color: #ffffff;
+    margin-left: 3px;
 }
 
 #workspaces button:hover {
     background: rgba(255, 255, 255, 0.5);
 }
 
-#workspaces button.active {
-    background: #fff9bb;
-    color: #000000;
+#workspaces button.empty {
+    color: rgba(255, 255, 255, 0.25);
 }
 
-#workspaces button.active:hover {
-    background: #fffcdf;
+#workspaces button.active {
+    background: #f0f7ff;
+    color: #1f1f1f;
 }
 
 #workspaces button.urgent {
@@ -57,27 +74,14 @@ window#waybar.hidden {
     border-bottom: 3px solid #ffffff;
 }
 
-#clock,
-#cpu,
-#memory,
-#network,
-#pulseaudio,
-#tray,
-#mode,
-#window {
-    margin-top: 6px;
-    padding: 0 12px;
-    color: #ffffff;
-}
-
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > * {
-    margin-left: 16px;
+    margin-left: 12px;
 }
 
 /* If workspaces is the rightmost module, omit right margin */
 .modules-right > widget:last-child > * {
-    margin-right: 16px;
+    margin-right: 12px;
 }
 
 #clock {
@@ -101,7 +105,7 @@ window#waybar.hidden {
 }
 
 #network {
-    background-color: #87ddff;
+    background-color: #a4e4fe;
     color: #000000;
 }
 

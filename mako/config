@@ -15,7 +15,7 @@ margin=12
 padding=12,20
 
 [urgency=low]
-border-color=#cccccc
+border-color=#aaaaaa
 
 [urgency=normal]
 border-color=#cceeff
