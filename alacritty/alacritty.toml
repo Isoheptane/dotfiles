@@ -1,4 +1,5 @@
-import = ["~/.config/alacritty/base16_default_dark.toml"]
+# import = ["~/.config/alacritty/base16_default_dark.toml"]
+# import = ["~/.config/alacritty/citylights.toml"] 
 
 [cursor.style]
 blinking = "On"
@@ -50,11 +51,21 @@ action = "DecreaseFontSize"
 key = "Minus"
 mods = "Control"
 
+[[keyboard.bindings]]
+command = { program = "alacritty", args = ["msg", "config", "window.opacity=1.0"] }
+key = "O"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+command = { program = "alacritty", args = ["msg", "config", "-r"] }
+key = "R"
+mods = "Control|Shift"
+
 [shell]
 program = "/usr/bin/fish"
 
 [window]
-opacity = 0.4
+opacity = 0.6
 
 [window.padding]
 x = 24

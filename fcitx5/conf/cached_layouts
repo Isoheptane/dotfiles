@@ -2713,6 +2713,16 @@ Description="Keyboard - French - French (Dvorak)"
 Language=fr
 Label="fr (dvorak)"
 
+[keyboard-fr-ergol]
+Description="Keyboard - French - French (Ergo‑L)"
+Language=fr
+Label="fr (ergol)"
+
+[keyboard-fr-ergol_iso]
+Description="Keyboard - French - French (Ergo‑L, ISO variant)"
+Language=fr
+Label="fr (ergol_iso)"
+
 [keyboard-fr-mac]
 Description="Keyboard - French - French (Macintosh)"
 Language=fr
@@ -3277,6 +3287,16 @@ Label="hu (102_qwerty_dot_nodead)"
 Description="Keyboard - Hungarian - Old Hungarian (for ligatures)"
 Language=hu
 Label="oldhun(lig) (oldhunlig)"
+
+[keyboard-hu-oldhun_sk_sh]
+Description="Keyboard - Hungarian - Old Hungarian (Carpathian Highlands, S as Sh)"
+Language=hu
+Label="oldhun(SK,Sh) (oldhun_sk_sh)"
+
+[keyboard-hu-oldhun_sk_sz]
+Description="Keyboard - Hungarian - Old Hungarian (Carpathian Highlands, S as Sz)"
+Language=hu
+Label="oldhun(SK,Sz) (oldhun_sk_sz)"
 
 [keyboard-hu-us]
 Description="Keyboard - Hungarian - Hungarian (US)"
