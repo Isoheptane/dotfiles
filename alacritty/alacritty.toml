@@ -2,8 +2,8 @@
 # import = ["~/.config/alacritty/citylights.toml"] 
 
 [cursor.style]
-blinking = "On"
-shape = "Beam"
+blinking = "Always"
+shape = "Underline"
 
 [env]
 TERM = "xterm-256color"

@@ -3,8 +3,6 @@
     font-family: "IntelOne Mono", "Font Awesome 6 Free";
     font-weight: 500;
     font-size: 16px;
-
-    border-radius: 18px;
     text-shadow: none;
     
     transition-property: background;
@@ -12,7 +10,10 @@
 }
 
 window#waybar {
-    background-color: transparent;
+    /* Large size for shorter side padding*/
+    /* border-radius: 100px; */
+    /* margin: 6px; */
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 window#waybar.hidden {
@@ -28,13 +29,16 @@ window#waybar.hidden {
 #mode,
 #window,
 #workspaces {
+    border-radius: 100px;
     margin-top: 6px;
+    margin-bottom: 6px;
     padding: 0 12px;
 }
 
 #workspaces {
+    /* border: rgba(255, 255, 255, 0.2) solid 2px; */
     padding: 3px;
-	background: rgba(31, 31, 31, 1.0);
+	background: rgb(18, 18, 18);
 	transition: none;
 
     font-size: 12px;
@@ -45,6 +49,7 @@ window#waybar.hidden {
 }
 
 #workspaces button {
+    border-radius: 15px;
     border: none;
     padding: 0 6px;
     background: transparent;
@@ -61,8 +66,8 @@ window#waybar.hidden {
 }
 
 #workspaces button.active {
-    background: #f0f7ff;
-    color: #1f1f1f;
+    background: #dbe3c8;
+    color: #2f2f2f;
 }
 
 #workspaces button.urgent {
@@ -76,12 +81,12 @@ window#waybar.hidden {
 
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > * {
-    margin-left: 12px;
+    margin-left: 6px;
 }
 
 /* If workspaces is the rightmost module, omit right margin */
 .modules-right > widget:last-child > * {
-    margin-right: 12px;
+    margin-right: 6px;
 }
 
 #clock {
@@ -110,12 +115,11 @@ window#waybar.hidden {
 }
 
 #tray {
-    background-color: rgba(16, 20, 24, 0.5);
+    /* border: rgba(255, 255, 255, 0.2) solid 2px; */
+    background-color: transparent;
 }
 
 #window {
-    font-family: 'IntelOne Mono', 'Noto Sans CJK SC', sans-serif;
-    font-weight: 400;
-    background-color: #cbecff;
+    background-color: #dbe3c8;
     color: #000000;
 }

@@ -13,7 +13,7 @@
 	# characters not in the chosen font will fail to render.
 	#
 	# Otherwise, fonts are interpreted in Pango format.
-	font = "Intel One Mono"
+	font = "Inconsolata Regular"
 
 	# Point size of text.
 	font-size = 16
@@ -42,7 +42,7 @@
 	# specified via `font`. Disabling font hinting speeds up text
 	# rendering appreciably, but will likely look poor at small font pixel
 	# sizes.
-	hint-font = true
+	hint-font = false
 
 #
 ### Text theming
@@ -50,7 +50,7 @@
 	# Default text color
 	#
 	# All text defaults to this color if not otherwise specified.
-	text-color = #FFFFFF
+	text-color = #d8d8d8
 
 	# All pieces of text have the same theming attributes available:
 	#
@@ -68,25 +68,25 @@
 	#     Radius of background box corners in pixels
 
 	# Prompt text theme
-	prompt-color = #F7CA88
+	prompt-color = #feca88
 	prompt-background = #00000000
 	prompt-background-padding = 0
 	prompt-background-corner-radius = 0
 
 	# Placeholder text theme
-	placeholder-color = #FFFFFF7F
+	placeholder-color = #6b6b6bff
 	placeholder-background = #00000000
 	placeholder-background-padding = 0
 	placeholder-background-corner-radius = 0
 
 	# Input text theme
-	# input-color = #FFFFFF
+	input-color = #f8f8f8
 	input-background = #00000000
 	input-background-padding = 0
 	input-background-corner-radius = 0
 
 	# Default result text theme
-	# default-result-color = #FFFFFF
+	default-result-color = #d8d8d8ff
 	default-result-background = #00000000
 	default-result-background-padding = 0, 0
 	default-result-background-corner-radius = 0
@@ -103,9 +103,9 @@
 
 	# Selection text
 	selection-color = #000000
-	selection-background = #CCEEFF
-	selection-background-padding = 0, 8
-	selection-background-corner-radius = 8
+	selection-background = #dbe3c8
+	selection-background-padding = 0, 4
+	selection-background-corner-radius = 0
 
 	# Matching portion of selection text
 	selection-match-color = #00000000
@@ -117,7 +117,7 @@
 	# Style of the optional text cursor.
 	#
 	# Supported values: bar, block, underscore
-	text-cursor-style = bar
+	text-cursor-style = underscore
 
 	# Color of the text cursor
 	#
@@ -155,7 +155,7 @@
 	num-results = 0
 
 	# Spacing between results in pixels. Can be negative.
-	result-spacing = 2
+	result-spacing = 0
 
 	# List results horizontally.
 	horizontal = false
@@ -167,11 +167,11 @@
 ### Window theming
 #
 	# Width and height of the window. Can be pixels or a percentage.
-	width = 40%
-	height = 40%
+	width = 720
+	height = 420
 
 	# Window background color
-	background-color = #2D2A2E33
+	background-color = #18181899
 
 	# Width of the border outlines in pixels.
 	outline-width = 0
@@ -183,16 +183,16 @@
 	border-width = 1
 
 	# Border color
-	border-color = #cceeff
+	border-color = #598da8
 
 	# Radius of window corners in pixels.
-	corner-radius = 18
+	corner-radius = 20
 
 	# Padding between borders and text. Can be pixels or a percentage.
-	padding-top = 6
-	padding-bottom = 6
-	padding-left = 12
-	padding-right = 12
+	padding-top = 10
+	padding-bottom = 10
+	padding-left = 24
+	padding-right = 24
 
 	# Whether to clip text drawing to be within the specified padding. This
 	# is mostly important for allowing text to be inset from the border,
