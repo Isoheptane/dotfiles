@@ -11,8 +11,8 @@
 
 window#waybar {
     /* Large size for shorter side padding*/
-    border-radius: 100px;
-    margin: 6px;
+    /* border-radius: 100px; */
+    /* margin: 6px; */
     background-color: rgba(0, 0, 0, 0.5);
 }
 
