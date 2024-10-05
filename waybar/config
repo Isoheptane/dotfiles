@@ -20,7 +20,7 @@
         "on-scroll-down": "hyprctl dispatch workspace e-1"
     },
     "hyprland/window": {
-        "format": "\uf061 {initialTitle}",
+        "format": "\uf105 {initialTitle}",
         "separate-outputs": true
     },
     "tray": {
@@ -31,7 +31,7 @@
         "interval": 1,
         "format": "\uf017 {:%H:%M:%S}",
         "format-alt": "\uf133 {:%Y-%m-%d %H:%M:%S}",
-        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "tooltip-format": "{calendar}",
 		"timezone": "Asia/Chongqing",
         "calendar": {
             "mode"          : "month",
@@ -39,11 +39,11 @@
             "weeks-pos"     : "right",
             "on-scroll"     : 1,
             "format": {
-                "months":     "<span color='#ffead3'><b>{}</b></span>",
-                "days":       "<span color='#ecc6d9'><b>{}</b></span>",
-                "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
-                "weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
-                "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
+                "months":     "<span color='#ffead3'>{}</span>",
+                "days":       "<span color='#ecc6d9'>{}</span>",
+                "weeks":      "<span color='#99ffdd'>W{}</span>",
+                "weekdays":   "<span color='#ffcc66'>{}</span>",
+                "today":      "<span color='#ff6699'><u>{}</u></span>"
             }
         },
         "actions": {
@@ -56,30 +56,30 @@
     },
     "cpu": {
         "interval": 1,
-        "format": "\uf2db {usage:2}%",
+        "format": "\uf4bc {usage:2}%",
         "tooltip": true
     },
     "memory": {
         "interval": 1,
-        "format": "\uf538 {used:0.1f}G",
+        "format": "\uefc5 {used:0.1f}G",
         "tooltip": true,
         "tooltip-format": " RAM: {used:0.2f}G / {total:0.2f}G\nSwap: {swapUsed:0.2f}G / {swapTotal:0.2f}G"
     },
     "network": {
         "interval": 1,
         "format-wifi": "\uf1eb {essid} ({signalStrength}%)",
-        "format-ethernet": "\uf6ff {ifname}",
-        "format-linked": "\uf059 No IP ({ifname})",
+        "format-ethernet": "\uef09 {ifname}",
+        "format-linked": "\ueb32 No IP ({ifname})",
         "format-disconnected": "\uf071 Disconnected",
-        "tooltip-format": "{ifname} {ipaddr}/{cidr} via {gwaddr}",
-        "format-alt": "\uf6ff {ipaddr}/{cidr}"
+        "tooltip-format": "{ifname}: {ipaddr}/{cidr}, Gateway: {gwaddr}",
+        "format-alt": "\uef09 {ipaddr}/{cidr}"
     },
     "pulseaudio": {
         "scroll-step": 5,
         "format": "{icon} {volume:2}%",
-        "format-muted": "\uf6a9",
+        "format-muted": "\ueee8",
         "format-bluetooth": "{icon}\uf294 {volume}%",
-        "format-bluetooth-muted": "\ufa69 {icon}\uf294",
+        "format-bluetooth-muted": "\ueee8 {icon}\uf294",
         "format-icons": {
             "default": ["\uf026", "\uf027", "\uf028"]
         },

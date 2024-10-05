@@ -1,12 +1,5 @@
 * {
-    /* `otf-font-awesome` is required to be installed for icons */
-    font-family: "IntelOne Mono", "Font Awesome 6 Free";
-    font-weight: 500;
-    font-size: 16px;
     text-shadow: none;
-    
-    transition-property: background;
-    transition-duration: 0.2s;
 }
 
 window#waybar {
@@ -21,9 +14,12 @@ window#waybar.hidden {
 }
 
 tooltip {
-    background-color: rgba(18, 18, 18, 0.8);
+    background-color: rgba(18, 18, 18, 1.0);
     border: 1px solid rgba(34, 34, 34, 0.5);
     border-radius: 15px;
+
+    font-family: "Inconsolata SemiBold", "Symbols Nerd Font";
+    font-size: 16px;
 }
 
 #clock,
@@ -38,16 +34,21 @@ tooltip {
     border-radius: 100px;
     margin-top: 6px;
     margin-bottom: 6px;
-    padding: 0 12px;
+    padding: 0px 12px 0px 12px;
+
+    font-family: "Inconsolata SemiBold", "Symbols Nerd Font";
+    font-size: 16px;
 }
 
 #workspaces {
     /* border: rgba(255, 255, 255, 0.2) solid 2px; */
     padding: 3px;
 	background: rgb(18, 18, 18);
-	transition: none;
+	transition-property: background;
+    transition-duration: 0.2s;
 
-    font-size: 12px;
+    transition-property: background;
+    transition-duration: 0.2s;
 }
 
 #workspaces :first-child {
@@ -61,6 +62,9 @@ tooltip {
     background: transparent;
     color: #ffffff;
     margin-left: 3px;
+
+    transition-property: background;
+    transition-duration: 0.2s;
 }
 
 #workspaces button:hover {
@@ -126,6 +130,7 @@ tooltip {
 }
 
 #window {
-    background-color: #d3e4c9;
+    background-color: #e6f2d6;
     color: #000000;
+    padding-left: 14px;
 }
