@@ -4,13 +4,25 @@
 
 window#waybar {
     /* Large size for shorter side padding*/
-    border-radius: 100px;
-    margin: 6px;
-    background-color: rgba(0, 0, 0, 0.5);
+    /* border-radius: 100px */
+    background-color: transparent;
 }
 
-window#waybar.hidden {
-    opacity: 0.2;
+.modules-left {
+    border-radius: 100px;
+    background-color: rgba(18, 18, 18, 1.0);
+    padding: 0 8px;
+}
+
+.modules-center {
+    border-radius: 100px;
+    background-color: rgba(18, 18, 18, 1.0);
+}
+
+.modules-right {
+    border-radius: 100px;
+    background-color: rgba(18, 18, 18, 1.0);
+    padding: 0 8px;
 }
 
 tooltip {
@@ -31,10 +43,10 @@ tooltip {
 #mode,
 #window,
 #workspaces {
-    border-radius: 100px;
-    margin-top: 6px;
-    margin-bottom: 6px;
-    padding: 0px 12px 0px 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 6px 0px 6px;
+    background-color: transparent;
 
     font-family: "Inconsolata SemiBold", "Symbols Nerd Font";
     font-size: 16px;
@@ -42,12 +54,9 @@ tooltip {
 
 #workspaces {
     /* border: rgba(255, 255, 255, 0.2) solid 2px; */
-    padding: 3px;
-	background: rgb(18, 18, 18);
-	transition-property: background;
-    transition-duration: 0.2s;
+    padding: 4px 12px;
 
-    transition-property: background;
+    transition-property: background, color, border;
     transition-duration: 0.2s;
 }
 
@@ -56,19 +65,21 @@ tooltip {
 }
 
 #workspaces button {
-    border-radius: 15px;
     border: none;
-    padding: 0 6px;
+    border-radius: 0px;
+    padding: 0px 0px;
     background: transparent;
     color: #ffffff;
-    margin-left: 3px;
+    margin-left: 8px;
+    min-width: 24px;
 
-    transition-property: background;
+    transition-property: background, color, border, margin;
     transition-duration: 0.2s;
 }
 
 #workspaces button:hover {
-    background: rgba(255, 255, 255, 0.5);
+    /* background: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
 }
 
 #workspaces button.empty {
@@ -76,12 +87,15 @@ tooltip {
 }
 
 #workspaces button.active {
-    background: #ffffff;
-    color: #2f2f2f;
+    /* background: #ffffff; */
+    color: #ffffff;
+    border-bottom: 3px solid #ffffff;
+    margin-bottom: 1px;
 }
 
 #workspaces button.urgent {
-    background-color: #eb4d4b;
+    color: #eb4d4b;
+    border-bottom: 3px solid #eb4d4b;
 }
 
 #mode {
@@ -89,48 +103,32 @@ tooltip {
     border-bottom: 3px solid #ffffff;
 }
 
-/* If workspaces is the leftmost module, omit left margin */
-.modules-left > widget:first-child > * {
-    margin-left: 6px;
-}
-
-/* If workspaces is the rightmost module, omit right margin */
-.modules-right > widget:last-child > * {
-    margin-right: 6px;
-}
-
 #clock {
-    background-color: #eefff1;
-    color: #000000;
+    color: #eefff1;
 }
 
 #cpu {
-    background-color: #FE968B;
-    color: #000000;
+    color: #FE968B;
 }
 
 #memory {
-    background-color: #FFEAAA;
-    color: #000000;
+    color: #FFEAAA;
 }
 
 #pulseaudio {
-    background-color: #a4e4fe;
-    color: #000000;
+    color: #a4e4fe;
 }
 
 #network {
-    background-color: #b0f5e5;
-    color: #000000;
+    color: #b0f5e5;
 }
 
 #tray {
     /* border: rgba(255, 255, 255, 0.2) solid 2px; */
-    background-color: transparent;
+    color: transparent;
 }
 
 #window {
-    background-color: #e6f2d6;
-    color: #000000;
-    padding-left: 14px;
+    color: #e6f2d6;
+    margin-left: 4px;
 }

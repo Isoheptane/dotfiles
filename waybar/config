@@ -6,18 +6,25 @@
     "margin-left": 8,
     "margin-right": 8,
     "margin-bottom": 0,
-    "height": 42,
+    "height": 36,
     "modules-left": ["hyprland/window"],
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["tray", "pulseaudio", "network", "memory", "cpu", "clock"],
+    "modules-right": ["tray", "pulseaudio", "network", "memory", "cpu", "battery", "clock"],
     "hyprland/workspaces": {
-        "format": "{name}",
+        "format": "{icon}",
         "persistent-workspaces": {
             "*": 10
         },
         "on-click": "activate",
         "on-scroll-up": "hyprctl dispatch workspace e+1",
-        "on-scroll-down": "hyprctl dispatch workspace e-1"
+        "on-scroll-down": "hyprctl dispatch workspace e-1",
+        "format-icons": {
+		    "1": "\uf303",
+            "2": "\uf121",
+		    "3": "\uf484",
+            "4": "\uf013",
+            "5": "\uf11b"
+	    }
     },
     "hyprland/window": {
         "format": "\uf105 {initialTitle}",
@@ -56,7 +63,7 @@
     },
     "cpu": {
         "interval": 1,
-        "format": "\uf4bc {usage:2}%",
+        "format": "\uf4bc {usage:1}%",
         "tooltip": true
     },
     "memory": {
@@ -85,5 +92,16 @@
         },
         "on-click-right": "pavucontrol",
         "ignored-sinks": ["AudioRelay Virtual Sink", "Recorder Sink"]
+    },
+    "battery": {
+        "bat": "BAT2",
+        "interval": 60,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-icons": ["", "", "", "", ""],
+        "max-length": 25
     }
 }
