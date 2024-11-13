@@ -60,20 +60,16 @@ tooltip {
     transition-duration: 0.2s;
 }
 
-#workspaces :first-child {
-    margin-left: 0;
-}
-
 #workspaces button {
     border: none;
     border-radius: 0px;
     padding: 0px 0px;
     background: transparent;
     color: #ffffff;
-    margin-left: 8px;
+    margin: 0 4px;
     min-width: 24px;
 
-    transition-property: background, color, border, margin;
+    transition-property: background, color, border, margin, padding;
     transition-duration: 0.2s;
 }
 
@@ -91,6 +87,7 @@ tooltip {
     color: #ffffff;
     border-bottom: 3px solid #ffffff;
     margin-bottom: 1px;
+    /* padding: 0 4px; */
 }
 
 #workspaces button.urgent {

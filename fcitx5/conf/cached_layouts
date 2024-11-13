@@ -358,6 +358,21 @@ Description="Keyboard - Russian - Russian (plus Tatar letters)"
 Language=ru
 Label="ru (rtu)"
 
+[keyboard-ru-diktor]
+Description="Keyboard - Russian - Russian (Diktor)"
+Language=ru
+Label=diktor
+
+[keyboard-ru-ruintl_ru]
+Description="Keyboard - Russian - Russian (international, RU)"
+Language=ru
+Label="ru (ruintl_ru)"
+
+[keyboard-ru-ruintl_en]
+Description="Keyboard - Russian - Russian (international, EN)"
+Language=en
+Label="en (ruintl_en)"
+
 [keyboard-br]
 Description="Keyboard - Portuguese (Brazil)"
 Language=pt

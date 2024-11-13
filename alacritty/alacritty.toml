@@ -61,7 +61,7 @@ command = { program = "alacritty", args = ["msg", "config", "-r"] }
 key = "R"
 mods = "Control|Shift"
 
-[shell]
+[terminal.shell]
 program = "/usr/bin/fish"
 
 [window]
@@ -70,3 +70,5 @@ opacity = 0.6
 [window.padding]
 x = 24
 y = 16
+
+[terminal]
