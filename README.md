@@ -8,6 +8,6 @@ The dotfiles have some specific configurations for NVIDIA, if you are using othe
 ### PC Build
 | Component | Name |
 | --------: | - |
-| CPU | AMD Ryzen 7 3700X |
+| CPU | AMD Ryzen 7 3700X <br/> AMD Ryzen 7 5700X |
 | Graphics | NVIDIA GeForce RTX 2060 SUPER |
 | Monitor | 2560x1080 @ 200Hz <br/> 2560x1440 @ 165Hz <br/> 1920x1200 @ 144Hz |
