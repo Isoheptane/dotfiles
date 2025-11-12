@@ -4,7 +4,7 @@ Name=All
 # Layout
 Default Layout=us
 # Default Input Method
-DefaultIM=mozc
+DefaultIM=pinyin
 
 [Groups/0/Items/0]
 # Name

@@ -1,6 +1,3 @@
-# import = ["~/.config/alacritty/base16_default_dark.toml"]
-# import = ["~/.config/alacritty/citylights.toml"] 
-
 [cursor.style]
 blinking = "Always"
 shape = "Underline"
@@ -64,8 +61,11 @@ mods = "Control|Shift"
 [terminal.shell]
 program = "/usr/bin/fish"
 
+[general]
+import = ["~/.config/alacritty/base16_default_darker.toml"]
+
 [window]
-opacity = 0.6
+opacity = 0.75
 
 [window.padding]
 x = 24

@@ -63,12 +63,12 @@
     },
     "cpu": {
         "interval": 1,
-        "format": "\uf4bc {usage:1}%",
+        "format": "\uf4bc {usage:>3}%",
         "tooltip": true
     },
     "memory": {
         "interval": 1,
-        "format": "\uefc5 {used:0.1f}G",
+        "format": "\uefc5 {used:>4.1f}G",
         "tooltip": true,
         "tooltip-format": " RAM: {used:0.2f}G / {total:0.2f}G\nSwap: {swapUsed:0.2f}G / {swapTotal:0.2f}G"
     },
@@ -100,7 +100,7 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{capacity}% {icon}",
+        "format": "{capacity:2}% {icon}",
         "format-icons": ["", "", "", "", ""],
         "max-length": 25
     }
