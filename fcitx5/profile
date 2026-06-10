@@ -45,6 +45,6 @@ Name=pinyin
 Layout=
 
 [GroupOrder]
-0=All
-1=Default
+0=Default
+1=All
 
