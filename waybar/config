@@ -13,6 +13,7 @@
     "hyprland/workspaces": {
         "format": "{icon}",
         "persistent-workspaces": {
+            "eDP-1": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
             "DP-3": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
             "HDMI-A-1": [ 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
         },

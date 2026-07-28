@@ -9,6 +9,13 @@
 -- monitor = , 1920x1200@120, 0x0x, 1.0
 
 hl.monitor({
+    output   = "eDP-1",
+    mode     = "1920x1080@60",
+    position = "0x0",
+    scale    = 1.0,
+})
+
+hl.monitor({
     output   = "DP-3",
     mode     = "2560x1080@200",
     position = "0x0",
@@ -22,7 +29,15 @@ hl.monitor({
     scale    = 1.0,
 })
 
+hl.monitor({
+    output	 = "HEADLESS-VNC",
+	mode     = "2400x1080@60",
+	position = "2560x0",
+	scale    = 1.0,
+})
+
 local monitor_index = {
+    ["eDP-1"] = 0,
     ["DP-3"] = 0,
     ["HDMI-A-1"] = 1,
 }
@@ -446,7 +461,7 @@ hl.bind(mainMod .. " + " .. "SHIFT" .. " + " .. "S", hl.dsp.exec_raw("slurp | gr
 hl.bind(mainMod .. " + " .. "SHIFT" .. " + " .. "W", hl.dsp.exec_cmd("grim -g $(hyprctl -j activewindow | jq -r ' \\(.at[0]),\\(.at[1]) \\(.size[0])x\\(.size[1]) ')-| wl-copy"))
 -- TODO : NEED TO RECREATE
 
-hl.bind("print", hl.dsp.exec_cmd("grim-| wl-copy"))
+hl.bind("print", hl.dsp.exec_cmd("grim - | wl-copy"))
 
 -- OBS
 
@@ -518,42 +533,34 @@ hl.bind(mainMod .. " + " .. "SHIFT" .. " + " .. "L", hl.dsp.exec_cmd("hyprlock")
 -- Input Methods
 
 hl.env("XMODIFIERS", "@im=fcitx")
-
 -- This line is removed since it causes GTK applications crash (if without Wayland support)
-
 -- env = GTK_IM_MODULE, wayland
-
 -- env = QT_IM_MODULE, wayland
-
 hl.env("SDL_IM_MODULE", "fcitx")
 
 -- SDL wayland
-
 -- This is deprecated since many clients does not support wayland
-
 -- env = SDL_VIDEODRIVER, "wayland,x11"
-
--- Cursor
-
-hl.env("HYPRCURSOR_THEME", "Bibata-Modern-Ice")
-
-hl.env("HYPRCURSOR_SIZE", 32)
-
-hl.env("XCURSOR_THEME", "Bibata-Modern-Ice")
-
-hl.env("XCURSOR_SIZE", 32)
 
 -- NVIDIA Fix
 
 hl.env("LIBVA_DRIVER_NAME", "nvidia")
-
-hl.env("XDG_SESSION_TYPE", "wayland")
-
 hl.env("GBM_BACKEND", "nvidia-drm")
-
 hl.env("__GLX_VENDOR_LIBRARY_NAME", "nvidia")
-
 hl.env("WLR_NO_HARDWARE_CURSORS", 1)
+
+-- Cursor
+
+hl.env("HYPRCURSOR_THEME", "Bibata-Modern-Ice")
+hl.env("HYPRCURSOR_SIZE", 32)
+hl.env("XCURSOR_THEME", "Bibata-Modern-Ice")
+hl.env("XCURSOR_SIZE", 32)
+
+-- XDG Desktop 
+
+hl.env("XDG_CURRENT_DESKTOP", "Hyprland")
+hl.env("XDG_SESSION_TYPE", "wayland")
+hl.env("XDG_SESSION_DESKTOP", "Hyprland")
 
 -- Other Environment
 
@@ -562,17 +569,11 @@ hl.env("QT_QPA_PLATFORMTHEME", "qt5ct")
 -- Proxy
 
 hl.env("ALL_PROXY", "socks5://localhost:1080")
-
 hl.env("HTTP_PROXY", "http://localhost:1081")
-
 hl.env("HTTPS_PROXY", "http://localhost:1081")
-
 hl.env("all_proxy", "socks5://localhost:1080")
-
 hl.env("http_proxy", "http://localhost:1081")
-
 hl.env("https_proxy", "http://localhost:1081")
-
 hl.env("NO_PROXY", "127.0.0.0/8,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16")
 
 -- Auto start
