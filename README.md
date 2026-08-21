@@ -6,9 +6,11 @@ This repository stores my desktop configuration. The main branch will keep updat
 ### Before Using
 Some of the configurations may not fit your environment and may require special attention.
 
-`hypr/hyprland.conf` have special configurations for **NVIDIA grapics cards**. If you are using other graphics adapters, you may need to remove these configs. 
+`hypr/hyprland.lua` and `waybar/config` have special configurations for multi-monitors. Please change the monitor setups for your specific setup.
 
-`hypr/hyprland.conf` configured **proxy environment variables**. Remove these proxy settings if you are not using proxy.
+`hypr/hyprland.lua` have special configurations for **NVIDIA grapics cards**. If you are using other graphics adapters, you may need to remove these configs. 
+
+`hypr/hyprland.lua` configured **proxy environment variables**. Remove these proxy settings if you are not using proxy.
 
 ### Font Requirements
 | Font | Required by |
