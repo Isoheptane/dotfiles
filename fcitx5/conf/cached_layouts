@@ -413,6 +413,11 @@ Description="Keyboard - Portuguese (Brazil) - Portuguese (Brazil, IBM/Lenovo Thi
 Language=pt
 Label="br (thinkpad)"
 
+[keyboard-br-thinkpad_nodeadkeys]
+Description="Keyboard - Portuguese (Brazil) - Portuguese (Brazil, IBM/Lenovo ThinkPad, no dead keys)"
+Language=pt
+Label="br (thinkpad_nodeadkeys)"
+
 [keyboard-br-nativo-epo]
 Description="Keyboard - Portuguese (Brazil) - Esperanto (Brazil, Nativo)"
 Language=eo
@@ -527,6 +532,11 @@ Label="pl (colemak_dh_ansi)"
 Description="Keyboard - Polish - Polish (Colemak-DH ISO)"
 Language=pl
 Label="pl (colemak_dh)"
+
+[keyboard-pl-colemak_dh_ortho]
+Description="Keyboard - Polish - Polish (Colemak-DH Ortholinear)"
+Language=pl
+Label="pl (colemak_dh_ortho)"
 
 [keyboard-pl-sun_type6]
 Description="Keyboard - Polish - Polish (Sun Type 6/7)"
@@ -1482,6 +1492,11 @@ Label=my
 Description="Keyboard - Burmese - Burmese (Zawgyi)"
 Language=my
 Label="my-zwg (zawgyi)"
+
+[keyboard-mm-mara]
+Description="Keyboard - Burmese - Mara"
+Language=mrh
+Label="mrh (mara)"
 
 [keyboard-mm-mnw]
 Description="Keyboard - Burmese - Mon"
@@ -3507,6 +3522,11 @@ Label="ml (mal_enhanced)"
 Description="Keyboard - Indian - Malayalam (Poorna, extended InScript)"
 Language=ml
 Label="ml (mal_poorna)"
+
+[keyboard-in-mara]
+Description="Keyboard - Indian - Mara"
+Language=mrh
+Label="mrh (mara)"
 
 [keyboard-in-mni]
 Description="Keyboard - Indian - Manipuri (Meitei)"

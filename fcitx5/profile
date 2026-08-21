@@ -44,7 +44,22 @@ Name=pinyin
 # Layout
 Layout=
 
+[Groups/2]
+# Group Name
+Name="EN Only"
+# Layout
+Default Layout=us
+# Default Input Method
+DefaultIM=keyboard-us
+
+[Groups/2/Items/0]
+# Name
+Name=keyboard-us
+# Layout
+Layout=
+
 [GroupOrder]
-0=Default
-1=All
+0=All
+1="EN Only"
+2=Default
 

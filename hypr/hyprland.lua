@@ -144,11 +144,11 @@ hl.config({
     },
 })
 
-hl.curve( "windowPop", { type = "spring", mass = 1, stiffness = 400, dampening = 70 })
+hl.curve( "windowPop", { type = "spring", mass = 1, stiffness = 800, dampening = 70 })
 
-hl.curve( "layersFade", { type = "spring", mass = 1, stiffness = 500, dampening = 70 })
+hl.curve( "layersFade", { type = "spring", mass = 1, stiffness = 800, dampening = 70 })
 
-hl.curve( "workspaceMove", { type = "spring", mass = 1, stiffness = 300, dampening = 70 })
+hl.curve( "workspaceMove", { type = "spring", mass = 1, stiffness = 1000, dampening = 70 })
 
 hl.animation({ leaf = "windows", enabled = true, speed = 1, spring = "windowPop", style = "popin 90%"})
 
